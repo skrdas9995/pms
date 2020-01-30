@@ -1,0 +1,260 @@
+
+/*Restaurant Page*/
+
+.restaurant h1, 
+.restaurant h2,
+.restaurant h3,
+.restaurant h4,
+.restaurant h5,
+.restaurant h6{
+    font-family:'playball';
+}
+
+body.restaurant{
+    font-family: 'trirong';
+}
+
+.restaurant .btn-primary {
+    background: #ffab0a;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.restaurant .slider-banner .carousel-caption .btn{border: none;}
+
+ .restaurant .logo.col-sm-3{padding: 0;}
+
+.restaurant .logo a h2{padding-top: 12px; margin: 0; color: #fff;}
+
+.restaurant header #navbar, .restaurant header .navbar-default{background: transparent; border: none;}
+
+.restaurant header .navbar-sticky{background:#f49b00; }
+
+.restaurant .navbar-nav > li > a{color: #fff; padding: 20px 15px 18px; text-transform: capitalize; margin-bottom: 0; 
+    font-size: 16px;}
+
+.restaurant  header#header{position: absolute; z-index: 999; top: 0; width: 100%;}  
+
+@media (min-width: 768px){
+    .restaurant .next-home .navbar.navbar-default {
+        display: block;
+    }  
+}
+
+.restaurant .slider-banner{position: relative;} 
+
+.restaurant .section-title h2{
+    color: #F44336;
+}   
+
+.restaurant #about .col-sm-12:first-child{margin-bottom: 15px; display: inline-block;}
+
+
+section.section-services {
+    background: rgba(241, 241, 241, 0.5);
+}
+
+.section-services div[class^="col"] {
+    padding: 0 8px;
+}
+
+.section-services .service-icon-list {
+    transition: all 0.6s ease 0s;
+    position: relative;
+    border-bottom:2px solid #999;
+    box-shadow: 0 0 4px #ccc;
+    padding: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+    background: #fff;
+}
+
+.service-icon{
+    margin-bottom: 25px;
+}
+
+.service-icon img {
+    display: inline-block;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.service-icon-list h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+    color: #795548;
+    line-height: 1.4;
+}
+
+.service-icon-list h3:after{
+    content: "";
+    width: 30%;
+    display:block;
+    border-bottom: 1px solid #795548;
+    margin: 8px auto 0;
+}
+
+/*
+.restaurant .slick-slide img{width: auto;}*/
+
+.resto-menu-item {
+    overflow: hidden;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.resto-menu-item .col-sm-3{padding: 0px;}
+
+.resto-menu-item h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #607D8B;
+}
+
+.resto-menu-item h5 {
+    float: right;
+    font-family: 'Courgette', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #ffab0a;
+}
+
+.resto-menu-item p {
+    padding-bottom:25px;
+}
+
+#contactus .two-tone-layout{margin: 0;}
+
+.bookingform p{margin-bottom: 20px;}
+
+.bookingform .form-control {
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 12px 12px;
+    font-weight: 300;
+    height: auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    border: 2px solid #333;
+    background: rgba(0,0,0,0.5);
+}
+
+#news .recent-post{
+    box-shadow: none;
+    border: none;
+}
+
+#news .recent-post .content{
+    padding:15px 0 0;
+    border: none;
+}
+
+#news .recent-post .content h4 a{
+    font-size: 21px;
+}
+
+#news .recent-post .content .meta{padding-bottom: 10px;}
+
+.restaurant section.testimonails{background: url('../images/special-offer.jpg'); color: #fff;}
+
+.restaurant .testi-inner{background: transparent; border: none;}
+
+.restaurant .testi-inner .carousel-inner .item, .restaurant .testi-inner .carousel-inner .item h3,
+.restaurant .testi-inner .carousel-inner .item p
+{color: #fff;}
+
+.restaurant  .testi-inner{padding-bottom: 0;}
+
+.restaurant .review_rating i{
+    color: #ff9800;
+}
+
+#contactus form#contactForm {
+    padding-top: 30px;
+}
+
+.restaurant .main-footer{margin-top: 0; padding-top: 50px;}
+
+.restaurant .main-footer strong, .restaurant .main-footer i{
+    color: #f49b00;
+}
+
+.restaurant ul.menu-footer li{text-transform: capitalize; color: #fff;}
+
+p.copy-right{color: #fff;}
+
+
+
+/*Restaurant responsive version*/
+
+@media only screen and (max-width:1100px){
+
+    .restaurant .logo a h2{font-size: 30px; padding-top: 14px;}
+
+    .restaurant .navbar-nav > li > a{padding: 20px 13px 18px}
+
+}
+
+@media only screen and (max-width:1023px){
+
+    .restaurant .logo a h2{font-size: 21px; padding-top: 18px;}
+
+    .restaurant .navbar-nav > li > a{font-size: 13px; padding: 20px 8px 18px;}
+}
+
+@media only screen and (max-width:767px){
+    .resto-menu-item img{width: 100%; margin-bottom: 25px;}
+
+    .resto-menu-item .col-sm-9{padding: 0;}
+}
+
+
+@media only screen and (max-width: 639px){
+
+    .restaurant .slider-banner .carousel-inner, .restaurant .slider-banner .carousel-inner img{
+        min-height: 400px;
+    }
+
+    .restaurant .slider-banner .carousel-caption {
+        top: 20%;
+    }
+
+    #about img{width: 100%;}
+
+    .featured-item-03{text-align: center; margin-bottom: 15px;}
+
+    #about .col-sm-5 .col-sm-12{padding: 0px;}
+
+    .section-services div[class^="col"]{padding:0 15px; margin-bottom: 15px;}
+
+    .section-services div[class^="col"]:last-child{margin-bottom: 0px;}
+
+    .section-services .service-icon-list{margin-bottom: 0px;}
+
+    #food-menu .col-md-6.col-sm-6.col-xs-6{width: 100%;}
+
+    #news .col-xs-6.col-sm-4{width: 100%; margin-bottom: 30px;}
+
+    #news .col-xs-6.col-sm-4:last-child{margin-bottom: 0px;}
+
+    #contactus .col-sm-8.col-xs-8{margin-bottom: 40px;}
+
+    #contactus .col-sm-8.col-xs-8, #contactus .col-sm-4.col-xs-4{width: 100%;text-align: center;}
+
+    #contactus .pull-right{float: none!important; text-align: center;}
+
+}
